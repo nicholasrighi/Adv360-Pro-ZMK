@@ -4,6 +4,13 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+/** shift if held, backspace if pressed */
+#define BACK_SFT  &mt LEFT_SHIFT BACKSPACE
+/** tab if pressed, swap to layer 2 if held */
+#define TAB_2    &tp 5 TAB
+/** enter if pressed, swap to layer 2 if held */
+#define ENTER_2  &tp 5 TAB
+
 / {
     behaviors {
       #include "macros.dtsi"
