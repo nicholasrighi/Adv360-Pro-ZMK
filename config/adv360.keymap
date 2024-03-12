@@ -9,7 +9,7 @@
 /** tab if pressed, swap to layer 2 if held */
 #define TAB_2    &tp 5 TAB
 /** enter if pressed, swap to layer 2 if held */
-#define ENTER_2  &tp 5 TAB
+#define ENTER_2  &tp 5 ENTER
 
 / {
     behaviors {
