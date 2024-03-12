@@ -69,5 +69,34 @@
         &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
       >;
     };
+    layer_Numbers {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans     &trans      &trans  &trans  &trans
+ &trans  &trans  &kp N1  &kp N2  &kp N3  &trans            &trans                                                  &trans  &trans  &trans     &trans      &trans  &trans  &trans
+ &trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans      &trans  &trans  &trans
+ &trans  &trans  &kp N7  &kp N8  &kp N9  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA  &kp PERIOD  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans     &trans      &trans  &trans  &trans
+            >;
+        };
+
+    layer_Symbols {
+            bindings = <
+ &trans   &trans      &trans        &trans         &trans            &trans       &trans                                                &trans          &trans    &trans            &trans                 &trans                 &trans                        &trans
+ &trans   &kp PLUS    &kp AT        &kp HASH       &kp EXCL          &trans       &trans                                                &trans          &kp TILDE &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &trans                 &trans                        &trans
+ &trans   &kp STAR    &kp LESS_THAN &kp EQUAL      &kp GREATER_THAN  &kp CARET    &trans  &trans  &trans  &trans  &trans  &trans        &trans          &trans    &kp DOLLAR        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp UNDER  &kp DOUBLE_QUOTES  &trans
+ &trans   &kp MINUS   &kp BSLH      &kp AMPS       &kp PIPE          &kp PERCENT  &trans  &trans  &trans  &trans  &trans  &trans        &trans          &trans    &kp FSLH          &kp LEFT_BRACE         &kp RIGHT_BRACE        &kp SLASH  &kp SINGLE_QUOTE   &trans
+ &trans   &trans      &trans        &trans         &trans            &trans       &trans  &trans                  &trans  &macro_quote  &macro_btick              &trans            &trans                 &trans                 &trans                        &trans
+            >;
+        };
+
+    layer_league {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &kp BACKSPACE  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
   };
 };
