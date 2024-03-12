@@ -88,11 +88,12 @@
 
     layer_Symbols {
             bindings = <
- &trans   &trans      &trans        &trans         &trans            &trans       &trans                                                &trans          &trans    &trans            &trans                 &trans                 &trans                        &trans
- &trans   &kp PLUS    &kp AT        &kp HASH       &kp EXCL          &trans       &trans                                                &trans          &kp TILDE &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &trans                 &trans                        &trans
- &trans   &kp STAR    &kp LESS_THAN &kp EQUAL      &kp GREATER_THAN  &kp CARET    &trans  &trans  &trans  &trans  &trans  &trans        &trans          &trans    &kp DOLLAR        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp UNDER  &kp DOUBLE_QUOTES  &trans
- &trans   &kp MINUS   &kp BSLH      &kp AMPS       &kp PIPE          &kp PERCENT  &trans  &trans  &trans  &trans  &trans  &trans        &trans          &trans    &kp FSLH          &kp LEFT_BRACE         &kp RIGHT_BRACE        &kp SLASH  &kp SINGLE_QUOTE   &trans
- &trans   &trans      &trans        &trans         &trans            &trans       &trans  &trans                  &trans  &macro_quote  &macro_btick              &trans            &trans                 &trans                 &trans                        &trans
+        &trans &trans    &trans        &trans    &trans            &trans      &tog 1                                                 &mo 3   &trans      &trans               &trans                &trans    &trans            &trans
+        &trans &kp PLUS  &kp AT        &kp HASH  &kp EXCL          &trans      &none                                                  &none   &kp TILDE   &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &trans    &trans            &trans
+        &trans &kp STAR  &kp LESS_THAN &kp EQUAL &kp GREATER_THAN  &kp CARET   &trans          &none  &trans &trans &trans            &trans  &kp DOLLAR  &kp LEFT_PARENTHESIS &kp RIGHT_PARANTHESIS &kp UNDER &kp DOUBLE_QUOTES &trans
+        &trans &kp MINUS &kp BSLH      &kp AMPS  &kp PIPE          &kp PERCENT                        &trans &trans                           &kp FSLH    &kp LEFT_BRACE       &kp RIGHT_BRACE       &kp SLASH &trans            &trans
+        &mo 2  &trans    &trans        &trans    &trans                                 &trans &trans &trans &trans &trans &trans                         &trans               &trans                &trans    &trans            &mo 2
+
             >;
         };
 
