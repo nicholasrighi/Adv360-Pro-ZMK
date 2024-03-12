@@ -8,6 +8,8 @@
     behaviors {
       #include "macros.dtsi"
       #include "version.dtsi"
+      #include "behaviors.dtsi"
+      #include "combos.dtsi"
       #ifndef VERSION_MACRO
       macro_ver: macro_ver {
         compatible = "zmk,behavior-macro";
