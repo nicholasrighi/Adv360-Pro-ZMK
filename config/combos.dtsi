@@ -3,7 +3,7 @@
  
           combo_esc_toggle {
             timeout-ms = <100>;
-            key-positions = <29 42>;
+            key-positions = <31 42>;
             bindings = <&kp ESC>;
         };
 
