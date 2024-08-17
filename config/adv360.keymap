@@ -89,7 +89,7 @@
     layer_Symbols {
             bindings = <
         &trans &trans    &trans        &trans    &trans            &trans      &tog 1                                                 &mo 3   &trans      &trans               &trans                &trans    &trans            &trans
-        &trans &kp PLUS  &kp AT        &kp HASH  &kp EXCL          &trans      &none                                                  &none   &kp TILDE   &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &PLUS     &trans            &trans
+        &trans &kp PLUS  &kp AT        &kp HASH  &kp EXCL          &tkp BSLH   &none                                                  &none   &kp TILDE   &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp PLUS  &trans            &trans
         &trans &kp STAR  &kp LESS_THAN &kp EQUAL &kp GREATER_THAN  &kp CARET   &trans          &none  &trans &trans &trans            &trans  &kp DOLLAR  &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp UNDER &kp DOUBLE_QUOTES &trans
         &trans &kp MINUS &kp BSLH      &kp AMPS  &kp PIPE          &kp GRAVE                          &trans &trans                           &kp PERCENT &kp LEFT_BRACE       &kp RIGHT_BRACE       &kp SLASH &trans            &trans
         &mo 2  &trans    &trans        &trans    &trans                                 &trans &trans &trans &trans &trans &kp COLON                      &trans               &trans                &trans    &trans            &mo 2
