@@ -9,7 +9,7 @@
 
           combo_num_shift {
             timeout-ms = <50>;
-            key-positions = <41 42>;
+            key-positions = <31 32>;
             bindings = <&mo 4>;
         };
     };
